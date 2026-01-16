@@ -1,0 +1,33 @@
+.header-nav {
+    background-color: white;
+}
+.container-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 160px 0 80px;
+    width: 100%;
+}
+.logo-nav{
+    
+  height: 100%;
+}
+
+.list-nav {
+     display: flex;
+    /* align-items: center;  */
+    gap: 20px;
+}
+.list-nav a:hover {
+    border-bottom: 4px solid rgb(8, 144, 241);    
+    color:rgb(8, 144, 241);
+}
+.list-nav a {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: black;
+text-transform: uppercase;
+}
+.list-nav li {
+    height: 100%;
+}
