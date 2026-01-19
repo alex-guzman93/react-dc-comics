@@ -47,22 +47,25 @@ function FooterDC() {
                     <li><a href="#">DC Power Visa</a></li>
 
                 </ul>
-                
-                    <img src="./img/dc-logo-bg.png" alt="" />
-                
+
+
+                <img src="./img/dc-logo-bg.png" alt="" />
+
             </div>
 
-            <div className="footer-under"></div>
-            <button>SIGN-UP NOW!</button>
-            <div className="social">
-                <span> FOLLOW US</span>
-                <a href="#"><img src="./img/footer-facebook.png" alt="Facebook" /></a>
-                <a href="#"><img src="./img/footer-twitter.png" alt="Twitter" /></a>
-                <a href="#"><img src="./img/footer-youtube.png" alt="Youtube" /></a>
-                <a href="#"><img src="./img/footer-pinterest.png" alt="Pinterest" /></a>
-                <a href="#"><img src="./img/footer-periscope.png" alt="Periscope" /></a>
-            </div>
+            <div className="footer-under">
 
+                <button>SIGN-UP NOW!</button>
+
+                <div className="social">
+                    <span> FOLLOW US</span>
+                    <a href="#"><img src="./img/footer-facebook.png" alt="Facebook" /></a>
+                    <a href="#"><img src="./img/footer-twitter.png" alt="Twitter" /></a>
+                    <a href="#"><img src="./img/footer-youtube.png" alt="Youtube" /></a>
+                    <a href="#"><img src="./img/footer-pinterest.png" alt="Pinterest" /></a>
+                    <a href="#"><img src="./img/footer-periscope.png" alt="Periscope" /></a>
+                </div>
+            </div>
         </footer>
     )
 }
