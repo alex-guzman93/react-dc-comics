@@ -1,13 +1,15 @@
-import './Headerdc.css';
+import './HeaderDc.css';
 
 function HeaderDc() {
     return (
 
         <header className="header-nav">
             <nav className="container-nav">
+
                 <div className="logo-nav">
                     <a href=""><img src="./img/dc-logo.png" alt="LogoDC" /></a>
                 </div>
+
                 <ul className="list-nav">
                     <li><a href="#">Characters</a></li>
                     <li><a href="#">Comics</a></li>
@@ -22,8 +24,8 @@ function HeaderDc() {
 
                 </ul>
 
-
             </nav>
+
         </header>
 
     )

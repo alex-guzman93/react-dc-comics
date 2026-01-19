@@ -1,0 +1,19 @@
+
+
+.footer-top {
+    display: flex;
+    gap: 20px;
+    background-image: url("./img/footer-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 110%;
+    padding: 10px 160px 0 80px;
+ 
+}
+
+.footer-top h4 {
+    color: white;
+}
+
+.footer-top a {
+    color: rgba(174, 173, 173, 0.784);
+}
